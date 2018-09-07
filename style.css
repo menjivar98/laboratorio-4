@@ -38,12 +38,21 @@ ul li{
 }
 
 .hr-up{
-    border-color:#f56a6a;
+    border:solid #f56a6a;
+    width: 99%;
+    
      
 }
 
 .hr-h2{
-    border-color:#f56a6a;   
+    border:solid #f56a6a;
+    width: 15%;
+    display: inline-flex;
+    margin: 0,0,0,0;   
+}
+
+.hr-bottom{
+    width: 99%;
 }
 
 section{
@@ -53,11 +62,17 @@ section{
 
 img{
     width: 40rem;
-    border-radius:1em; 
+    border-radius:4em;
+    padding: 0 2em;
+    margin-bottom: 0;  
 }
 
 .grid{
     display: grid;
     grid-template-columns:50% 50%;
     grid-template-rows:50% 50%; 
+}
+
+.h2-abajo{
+    margin-bottom: 0;
 }
