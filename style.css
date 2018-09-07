@@ -76,3 +76,36 @@ img{
 .h2-abajo{
     margin-bottom: 0;
 }
+.grid2 i{
+    color:#f56a6a;
+    font-size:3em;
+    padding: 0.5em 0 0.5em 0.5em;
+     
+}
+
+.eshta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid2{
+   display: grid;
+   grid-template-columns:15% 85%;
+   
+}
+
+a{
+    border:2px solid #f56a6a;
+    border-radius:10px;
+    padding: 1em 4em;
+    text-decoration: none;
+    color: #f56a6a;
+    
+
+}
+
+a:hover{
+    border: rgb(21, 199, 199); 
+    background-color: rgb(207, 203, 203);
+}
